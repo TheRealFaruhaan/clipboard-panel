@@ -1,0 +1,12 @@
+{
+  "uuid": "clipboard-panel@farhan.local",
+  "name": "Clipboard Panel",
+  "description": "Clipboard history in a panel at the pointer, opened with Super+V. Click an entry or press Enter to paste it.",
+  "shell-version": [
+    "50"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.clipboard-panel",
+  "version": 1,
+  "version-name": "1.0",
+  "url": "https://github.com/TheRealFaruhaan/clipboard-panel"
+}

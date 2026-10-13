@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.clipboard-panel" path="/org/gnome/shell/extensions/clipboard-panel/">
+    <key name="toggle-panel" type="as">
+      <default><![CDATA[['<Super>v']]]></default>
+      <summary>Shortcut that opens the clipboard panel</summary>
+    </key>
+    <key name="paste-on-select" type="b">
+      <default>true</default>
+      <summary>Paste the chosen entry into the window that had focus</summary>
+    </key>
+    <key name="history-size" type="i">
+      <range min="5" max="100"/>
+      <default>25</default>
+      <summary>Number of unpinned entries to keep</summary>
+    </key>
+  </schema>
+</schemalist>
